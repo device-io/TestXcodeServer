@@ -207,6 +207,7 @@
 				TargetAttributes = {
 					FB7032D41BCA388C000A88CB = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = N49CRQ62AA;
 					};
 					FB7032ED1BCA388C000A88CB = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -413,8 +414,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TestXcodeServer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.testjenkins.TestXcodeServer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -424,8 +428,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TestXcodeServer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.testjenkins.TestXcodeServer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -439,6 +446,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.testjenkins.TestXcodeServerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestXcodeServer.app/TestXcodeServer";
 			};
 			name = Debug;
@@ -451,6 +459,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.testjenkins.TestXcodeServerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestXcodeServer.app/TestXcodeServer";
 			};
 			name = Release;
@@ -498,6 +507,7 @@
 				FB7033041BCA388C000A88CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB7033051BCA388C000A88CB /* Build configuration list for PBXNativeTarget "TestXcodeServerTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +516,7 @@
 				FB7033071BCA388C000A88CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB7033081BCA388C000A88CB /* Build configuration list for PBXNativeTarget "TestXcodeServerUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +525,7 @@
 				FB70330A1BCA388C000A88CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
